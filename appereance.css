@@ -1,0 +1,9 @@
+table{
+    border-color: blueviolet;   
+    background-color: aquamarine;
+    border-radius:5%;
+    border-width: 20px;
+    border-style: double;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.3);
+    
+}
