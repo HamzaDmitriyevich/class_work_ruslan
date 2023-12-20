@@ -5,17 +5,17 @@ function checkWeightHeight(){
     var ras = weight / (height*height);
     var result ="";
 
-    if (ras < 55){
+    if (ras < 55) {
         result = "Дрищ";
-    }else if (ras >= 55 && ras < 85){
+    }else if (ras >= 55 && ras < 85) {
         result= "Норм вес";
-    }else if (ras >= 88 && ras < 130){
+    }else if (ras >= 88 && ras < 130) {
         result = "Вы Жирненький";
-    }else{
+    }else {
         result = "Ну это слишком"
     }
     
-    document.getElementById("result").innerHTML =result;
+    document.getElementById("result").innerHTML = result;
     
 
 
